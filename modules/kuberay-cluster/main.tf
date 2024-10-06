@@ -11,6 +11,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
+#
 
 resource "google_storage_bucket_iam_member" "gcs-bucket-iam" {
   bucket = var.gcs_bucket
